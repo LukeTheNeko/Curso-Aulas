@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="number"],
+  select {
+    width: 200px;
+    border: 2px solid blue;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #resultado {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .custom-button {
+    background: #4c63af;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  
+  .custom-button:hover {
+    background: #454ba0;
+  }
+
+  input[type="number"],
+select {
+  width: 200px;
+  border: 1px solid #ccc; /* Adicione a borda */
+  padding: 8px; /* Ajuste o espaçamento interno */
+}

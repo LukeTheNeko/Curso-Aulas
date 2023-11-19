@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="buttons-style.css">
+</head>
+<body>
+  <h1>Jogo da Velha</h1>
+  <div id="game">
+    <div class="row">
+      <div class="cell" onclick="makeMove(0, 0)"></div>
+      <div class="cell" onclick="makeMove(0, 1)"></div>
+      <div class="cell" onclick="makeMove(0, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(1, 0)"></div>
+      <div class="cell" onclick="makeMove(1, 1)"></div>
+      <div class="cell" onclick="makeMove(1, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(2, 0)"></div>
+      <div class="cell" onclick="makeMove(2, 1)"></div>
+      <div class="cell" onclick="makeMove(2, 2)"></div>
+    </div>
+  </div>
+  </br>
+  <button class="button1" onclick="resetGame()">Jogar Novamente</button>
+  <button class="button2" onclick="resetScore()">Reiniciar Pontuação</button>
+  <div id="score">
+    <h2>Pontuação</h2>
+    <p>X: <span id="xScore">0</span></p>
+    <p>O: <span id="oScore">0</span></p>
+    <p>Empates: <span id="draws">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

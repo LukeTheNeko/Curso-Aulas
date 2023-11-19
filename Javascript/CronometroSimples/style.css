@@ -1,0 +1,52 @@
+body {
+    background-color: #0f0f0f;
+  }
+
+
+.timer-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  #timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.start {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button.stop {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  button.reset {
+    background-color: #F44336;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:active {
+    opacity: 0.6;
+  }
+  

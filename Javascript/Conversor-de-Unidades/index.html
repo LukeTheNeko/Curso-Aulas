@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Unidades</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Conversor de Unidades</h1>
+  
+  <div>
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" placeholder="Digite o valor">
+  </div>
+
+  <div>
+    <label for="unidadeDe">De:</label>
+    <select id="unidadeDe">
+      <option value="cm">Centímetros (cm)</option>
+      <option value="m">Metros (m)</option>
+      <option value="km">Quilômetros (km)</option>
+      <option value="in">Polegadas (in)</option>
+      <option value="ft">Pés (ft)</option>
+      <option value="yd">Jardas (yd)</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="unidadePara">Para:</label>
+    <select id="unidadePara">
+      <option value="cm">Centímetros (cm)</option>
+      <option value="m">Metros (m)</option>
+      <option value="km">Quilômetros (km)</option>
+      <option value="in">Polegadas (in)</option>
+      <option value="ft">Pés (ft)</option>
+      <option value="yd">Jardas (yd)</option>
+    </select>
+  </div>
+
+  <div>
+    <button class="custom-button" onclick="converter()">Converter</button>
+  </div>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
